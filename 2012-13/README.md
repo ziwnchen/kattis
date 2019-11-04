@@ -9,7 +9,7 @@ in this file.
 - Student Email: ziwenchen@uchicago.edu	
 
 ### Problem 1 and 2:
-Description: Use recursive and non-recursive method to examine if a binary tree is BST or not
+Description: Use recursive and non-recursive method to examine if a binary tree is BST or not.  
 Reference: [check bst](https://www.geeksforgeeks.org/a-program-to-check-if-a-binary-tree-is-bst-or-not/)
 
 ### Problem 4:
@@ -22,7 +22,7 @@ Potential problems:
 ### Problem 5:
 Description: Use Red Black tree to re-implement Problem 4.
 Potential problems: 
-- **Memory leakage**: there might be memory leak when creating the tree node.
+- **Memory leakage**: there might be memory leak when creating the tree node.  
 Reference: [Red Black Tree](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)
 
 ### Problem 6 Results:
@@ -38,7 +38,7 @@ Self Balancing BST Dictionary
 The above outcome indicates that Self-Balancing BST is faster than Naive BST both in adding large numbers of nodes and in node searching. This is not surprsing because Self-Balancing BST has lower tree height. Although it may take some extra time to rotate the tree and reorder the nodes, Self-Balancing BST is still much better in importing large data with alphabetical order. As for node searching, in the current example (alphabetised dictionary), the time complexity of a Naive BST is O(n) while the time complexity of a Self-Balancing BST is O(log n).
 
 ### Problem 7:
-Description: Use multiple binary searches for each given array.
+Description: Use multiple binary searches for each given array.  
 Reference: [Binary Search](https://en.wikipedia.org/wiki/Binary_search_algorithm)
 
 ### Problem 8:
